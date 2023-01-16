@@ -31,4 +31,7 @@ Atualemente me sinto confortável em usar git/github, que achei que seriam dois 
 
 * Estou usando o Trello para tentar me organizar melhor;
 
+
 _OBS: Espero do fundo do meu coração que esse README não tenha ficado ruim._ 
+
+***********************************************************************************************************************************************************************
