@@ -101,4 +101,6 @@ Seção 7: Higher Order Functions do JavaScript ES6 :hourglass_flowing_sand:
 ## Ciência da Computação :hourglass_flowing_sand:
 
 
+#
+
 
