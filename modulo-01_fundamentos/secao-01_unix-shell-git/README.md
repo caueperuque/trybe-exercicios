@@ -25,10 +25,12 @@ Atualemente me sinto confortável em usar git/github, que achei que seriam dois 
 
 ### Recado para o futuro
 
-* Espero salvar todos códigos e projetos a partir de hoje, em um repositório remoto (no meu caso o Github).
+* Espero salvar todos códigos e projetos a partir de hoje, em um repositório remoto (no meu caso o Github);
 
-* Quero aprender melhor como organizar o meu repositório, de forma que fique mais fácil das pessoas que acessarem entenderem.
+* Quero aprender melhor como organizar o meu repositório, de forma que fique mais fácil das pessoas que acessarem entenderem;
 
-* Estou usando o Trello para tentar me organizar melhor.
+* Estou usando o Trello para tentar me organizar melhor;
 
 _OBS: Espero do fundo do meu coração que esse README não tenha ficado ruim_
+
+***********************************************************************************************************************************************************************
