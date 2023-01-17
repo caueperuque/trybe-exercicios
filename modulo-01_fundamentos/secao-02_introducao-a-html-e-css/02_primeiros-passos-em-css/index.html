@@ -16,26 +16,55 @@
 
         body {
             font-size: 16px;
+            background-color: bisque;
         }
 
         #color_title {
             text-align: center;
             text-decoration: underline ;
-            background-color: aquamarine;
-            line-height: 2em;
-            
+            color: white;
+            background-image: linear-gradient(to right,red,orange,yellow,green,blue,indigo,violet);
+            line-height: 2em;   
         }
 
+        #answer {
+            text-align: center;
+        }
+
+        #colors {
+            font-style: italic;
+            background-color: rgb(21, 253, 0);
+            font-size: 20px;
+        }
+
+        #yellow {
+            background-color: yellow;
+        }
+
+        #red {
+            background: red;
+        }
+
+        #brown {
+            background-color: brown;
+        }
+
+        #name {
+            font-style: italic;
+            text-align: end;
+        }
 
     </style>
   </head>
   <body>
-    <h1 id="color_title">Cores</h1>
-    <p id>Qual é a sua cor favorita?</p>
-    <ul>
-      <li>Amarelo</li>
-      <li>Vermelho</li>
-      <li>Marrom</li>
+    <h1 id="color_title">Colors</h1>
+    <p id="answer">What's your favorite color?</p>
+    <ul id="colors">
+      <li id="yellow">Yellow</li>
+      <li id="red">Red</li>
+      <li id="brown">Brown</li>
     </ul>
+    <br>
+    <h4 id="name">by: Cauê Peruque</h4>
   </body>
 </html>
