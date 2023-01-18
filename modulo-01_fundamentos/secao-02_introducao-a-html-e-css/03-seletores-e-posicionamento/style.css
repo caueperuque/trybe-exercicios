@@ -1,16 +1,4 @@
-h1, p {
-  text-align: center;
+div:hover {
+  border: solid green;
 }
 
-ul, ol {
-  list-style: none
-}
-
-li:hover {
-  background-color: rgb(70, 255, 70);
-}
-
-li:active{
-  font-style: italic;
-  text-decoration: underline;
-}
