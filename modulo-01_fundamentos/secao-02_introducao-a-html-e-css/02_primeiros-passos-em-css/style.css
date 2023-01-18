@@ -1,38 +1,27 @@
-
-h1 {
-  color: seagreen;
-  font-size: 65px;
-  font-family: sans-serif, Helvetica; 
-}
-
-.cor-de-fundo {
-  background-color: whitesmoke;
-}
-
-p {
-  font-weight: 600;
-}
-
-body {
-  font-size: 16px;
-}
-
-li {
-  font-style: italic;
-  line-height: 60px;
+.caixa {
+  color: white;
+  display: inline-block;
+  line-height: 50px;
   text-align: center;
-  text-decoration: underline;
-  font-size: 2em;
+  vertical-align: top;
 }
 
-#verde {
-  background-color: green;
+.width-and-height {
+  height: 50px;
+  width: 50px;
 }
 
-#verde-escuro {
-  background-color: seagreen;
+/* insira na classe abaixo um padding de 20px para aplicá-lo aos itens B, C e D */
+.padding {
+
 }
 
-#azul {
-  background-color: blue;
+/* insira na classe abaixo uma margem de 30px para aplicá-la aos itens C e D */
+.margin {
+
+}
+
+/* insira na classe abaixo uma borda com valor '5px solid black' para aplicá-la ao item D */
+.border {
+  
 }
