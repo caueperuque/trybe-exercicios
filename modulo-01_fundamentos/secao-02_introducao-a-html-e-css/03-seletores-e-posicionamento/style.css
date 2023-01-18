@@ -3,7 +3,7 @@
     display: inline-block;
     line-height: 50px;
     text-align: center;
-    vertical-align: top;
+    vertical-align: top;  
   }
   
   .width-and-height {
@@ -23,7 +23,5 @@
   
   /* insira na classe abaixo uma borda com valor '5px solid black' para aplicá-la ao item D */
   .border {
-    border-color: black;
-    border: 5px;
-    border-style: solid;
+    border: 5px solid black;
   }
