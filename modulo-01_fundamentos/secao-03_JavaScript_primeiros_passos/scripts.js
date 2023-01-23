@@ -1,11 +1,15 @@
-// ETAPA 01
-const base = 5;
-const height = 8;
-const area = base * height;
+//ETAPA 01
+const test = 90;
 
 //ETAPA 02
-console.log("A área do retângulo é " + area);
+if (test >= 80) {
+    console.log('Parabéns, você faz parte do grupo das pessoas aprovadas!');
+}
 
-//ETAPA 03
-const perimeter = (base * 2) + (height * 2); //Usei o parentêses para que específique fazer primeiro as duas multiplicações e somar elas após isso.
-console.log("O perimetro do retângulo é " + perimeter);
+else if (test >= 60 && test < 80) {
+    console.log('Você está na nossa lista de espera');
+}
+
+else{
+   console.log('Infelizmente, você reprovou.') 
+}
