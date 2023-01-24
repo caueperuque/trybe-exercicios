@@ -92,20 +92,20 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 // console.log(array2);
 
 
-
-let array2 = []
-let div = 0;
-let result = 0;
-for(let index = 1; index <= 25; index += 1){
-   array2.push(index);
-}
+//Ex08.Dividindo cada elemento do array por 2
+// let array2 = []
+// let div = 0;
+// let result = 0;
+// for(let index = 1; index <= 25; index += 1){
+//    array2.push(index);
+// }
 // console.log(array2);
 
 //primeiro percorrer esse array
-for(let c = 0; c < array2.length; c += 1){
-    //quero pegar cada elemento do array e dividir cada elemento do array por 2
-    result = array2[c] / 2;
-    //imprimir a lista atualizada
-    console.log(result);
-} 
+// for(let c = 0; c < array2.length; c += 1){
+//     //quero pegar cada elemento do array e dividir cada elemento do array por 2
+//     result = array2[c] / 2;
+//     //imprimir a lista atualizada
+//     console.log(result);
+// } 
 
