@@ -1,41 +1,16 @@
-/* Posicione o Mário acima do Goomba. */
-.super-mario {
-  width: 170px;
-  position: relative;
-  left: 100px;
-  top: 100px
+h1, p {
+  text-align: center;
 }
 
-
-.goomba {
-  width: 100px;
-  position: absolute;
-  top: 400px
-
+li {
+  font-size: 20px;
 }
 
-/* Posicione o balão para que se torne uma fala de Bowser. */
-.baloon {
-  position: absolute;
-  z-index: 1;
-  top: 260px;
-  left: 360px;
-  width: 250px;
+li:hover {
+  background-color: rgb(70, 255, 70);
 }
 
-/* Posicione a tag p para que fique dentro do balão de fala. */
-.speach {
-  font-size: 25px;
-  position: absolute;
-  top: 280px;
-  left: 420px;
-  width: 200px;
-  z-index: 2;
-}
-
-.bowser {
-  width: 200px;
-  position:absolute;
-  top: 400px;
-  left: 600px;
+li:active{
+  font-style: italic;
+  text-decoration: underline;
 }
