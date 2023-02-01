@@ -21,27 +21,27 @@ Seção 1: Introdução - Unix, Shell, Git/GitHub :white_check_mark:
 
 <details>
 <summary>
-Seção 2: Introdução à HTML & CSS
+Seção 2: Introdução à HTML & CSS :white_check_mark:
 </summary>
 
-- [ ] 2-1: _Estruturas de Página_
-- [ ] 2-2: _Primeiros Passos em CSS_
-- [ ] 2-3: _Seletores e Posicionamento_
-- [ ] 2-4: _HTML Semântico_
-- [ ] 2-5: _Projeto Prático - Lessons Learned_
+- [X] 2-1: _Estruturas de Página_
+- [X] 2-2: _Primeiros Passos em CSS_
+- [X] 2-3: _Seletores e Posicionamento_
+- [X] 2-4: _HTML Semântico_
+- [X] 2-5: _Projeto Prático - Lessons Learned_
 </details>
 
 <details>
 <summary>
-Seção 3: Introdução à JavaScript :hourglass_flowing_sand:
+Seção 3: Introdução à JavaScript :hourglass_flowing_sand: :white_check_mark:
 </summary>
 
-- [ ] 3-1: _Primeiros Passos_
-- [ ] 3-2: _Array e loop For_
-- [ ] 3-3: _Lógica de Programação e Algoritmos_
-- [ ] 3-4: _Objetos e funções_
-- [ ] 3-5: _JS ES6 - let, const, arrow functions e template literals_
-- [ ] 3-6: _Projeto Prático - Playground Functions_
+- [X] 3-1: _Primeiros Passos_
+- [X] 3-2: _Array e loop For_
+- [X] 3-3: _Lógica de Programação e Algoritmos_
+- [X] 3-4: _Objetos e funções_
+- [X] 3-5: _JS ES6 - let, const, arrow functions e template literals_
+- [X] 3-6: _Projeto Prático - Playground Functions_
 </details>
 
 <details>
