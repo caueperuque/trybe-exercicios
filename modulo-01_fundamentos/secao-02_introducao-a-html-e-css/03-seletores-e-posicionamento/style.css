@@ -1,16 +1,49 @@
-h1, p {
-  text-align: center;
+div:hover {
+  border: 6px solid green;
 }
 
-li {
+div:nth-of-type(1) {
+  background-color:rgb(255, 0, 149)
+}
+
+div:nth-of-type(2) {
+  background-color:rgb(0, 255, 0)
+}
+
+div:nth-of-type(3) {
+  background-color:rgb(255, 0, 43)
+}
+
+div:nth-of-type(4) {
+  background-color:black;
+  color: white;
+}
+
+div:nth-of-type(5) {
+  background-color:rgb(252, 235, 0)
+}
+
+div:nth-of-type(1) > h3 {
+  color: purple;
+}
+
+div:nth-of-type(2) > h3 {
+  color: green 
+}
+div:nth-of-type(3) > h3 {
   font-size: 20px;
 }
-
-li:hover {
-  background-color: rgb(70, 255, 70);
+div:nth-of-type(4) > h3 {
+  font-family: monospace;
+}
+div:nth-of-type(5) > h3 {
+  font-style: italic
 }
 
-li:active{
-  font-style: italic;
-  text-decoration: underline;
+div:nth-of-type(3) {
+  height: 100px;
+}
+
+div:nth-child(odd) h3 {
+  font-style: italic
 }
