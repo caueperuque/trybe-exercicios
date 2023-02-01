@@ -1,49 +1,66 @@
-div:hover {
-  border: 6px solid green;
+ol {
+  background-color: yellow;
 }
 
-div:nth-of-type(1) {
-  background-color:rgb(255, 0, 149)
+ol li{
+  font-weight: bold;
 }
 
-div:nth-of-type(2) {
-  background-color:rgb(0, 255, 0)
+ol li:nth-child(even){
+  background-color: green;
 }
 
-div:nth-of-type(3) {
-  background-color:rgb(255, 0, 43)
+ol li:nth-child(odd){
+  text-transform: uppercase;
 }
 
-div:nth-of-type(4) {
-  background-color:black;
-  color: white;
+h1, h2, h3, h4, h5, h6 {
+  color: red;
 }
 
-div:nth-of-type(5) {
-  background-color:rgb(252, 235, 0)
-}
-
-div:nth-of-type(1) > h3 {
-  color: purple;
-}
-
-div:nth-of-type(2) > h3 {
-  color: green 
-}
-div:nth-of-type(3) > h3 {
+li {
   font-size: 20px;
 }
-div:nth-of-type(4) > h3 {
-  font-family: monospace;
-}
-div:nth-of-type(5) > h3 {
-  font-style: italic
+
+
+.title {
+  font-size: 40px;
+  border: 1px black solid;
 }
 
-div:nth-of-type(3) {
-  height: 100px;
+ul li:nth-child(1){
+  color: blue;
 }
 
-div:nth-child(odd) h3 {
-  font-style: italic
+ul li:nth-child(2){
+  color: pink;
+}
+
+ul li:nth-child(3){
+  color: pink;
+}
+
+.aliados-link li:hover{
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.aliados-link li:nth-of-type(1){
+  color: rgb(255, 166, 0);
+}
+
+.aliados-link li:nth-of-type(2){
+  color: rgb(0, 255, 0);
+}
+
+.aliados-link li:nth-of-type(3){
+  color: rgb(0, 0, 0);
+}
+
+.aliados-link li:nth-of-type(4){
+  color: rgb(255, 238, 0);
+}
+
+.aliados-link li:nth-of-type(5){
+  color: rgb(0, 94, 50);
 }
