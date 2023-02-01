@@ -1,23 +1,11 @@
 // ETAPA 01
+const base = 5;
+const height = 8;
+const area = base * height;
 
-const myName = "Cauê";
-const birthCity = "Gotham City";
-let birthYear = 2003;
+//ETAPA 02
+console.log("A área do retângulo é " + area);
 
-// ETAPA 02
-
-console.log(myName);
-console.log(birthCity);
-console.log(birthYear);
-
-// ETAPA 03
-
-birthYear = 2030;
-
-console.log(birthYear);
-
-// ETAPA 04
-
-birthCity = "Nepal";
-
-console.log(birthCity); // Erro pois birthCity é uma constante, portanto não pode ser modificada após já ter tido uma atribuição á ela 
+//ETAPA 03
+const perimeter = (base * 2) + (height * 2); //Usei o parentêses para que específique fazer primeiro as duas multiplicações e somar elas após isso.
+console.log("O perimetro do retângulo é " + perimeter);
