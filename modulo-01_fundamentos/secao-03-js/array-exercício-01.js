@@ -109,3 +109,45 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 //     console.log(result);
 // } 
 
+
+
+//ExBônus. Bubble Sort de forma decrescente
+//Primeiro vamos percorrer o array sem contar o primeiro indice
+// for (let index = 1; index < numbers.length; index += 1){
+//     //fazendo comparação para ver se o númerio posterior de onde o indice está é maior ou menor
+//     for(let secondIndex = 0; secondIndex < index; secondIndex += 1){
+//         //verfica se o número for maior, SE sim ele troca a posição
+//         if(numbers[secondIndex] < numbers[index]){
+//             let position = numbers[index];
+//             numbers[index] = numbers[secondIndex];
+//             numbers[secondIndex] = position;
+//         }
+//     }
+// }
+// console.log(numbers);
+
+
+
+// ExBônus02. Multiplica os elementos do array pelo próximo elemento
+// for (let index = 1; index < numbers.length; index += 1){
+//     for(let secondIndex = 0; secondIndex < index; secondIndex += 1){
+//         if(numbers[secondIndex] > numbers[index]){
+//             let position = numbers[index];
+//             numbers[index] = numbers[secondIndex];
+//             numbers[secondIndex] = position;
+//         }
+//     }
+// }
+// console.log(numbers);
+
+// let array2 = [];
+// let mult = 0;
+// for(let c = 0; c < numbers.length; c += 1){
+//     if(c + 1 < numbers.length){
+//     mult = numbers[c + 1] * numbers[c];
+//     array2.push(mult)
+//     }else{
+//         array2.push(numbers[c] * 2)
+//     }
+// }
+// console.log(array2);
