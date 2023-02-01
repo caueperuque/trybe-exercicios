@@ -33,7 +33,7 @@ Seção 2: Introdução à HTML & CSS :white_check_mark:
 
 <details>
 <summary>
-Seção 3: Introdução à JavaScript :hourglass_flowing_sand: :white_check_mark:
+Seção 3: Introdução à JavaScript :white_check_mark:
 </summary>
 
 - [X] 3-1: _Primeiros Passos_
