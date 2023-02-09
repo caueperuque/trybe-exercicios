@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#destination1 {
+  margin-left: 0px;
+}
+
+#escolhas input{
+  margin-left: 30px;
+}
+
+form {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#myDiv {
+  box-shadow: 0px 0px 30px rgb(66, 66, 66);
+}
