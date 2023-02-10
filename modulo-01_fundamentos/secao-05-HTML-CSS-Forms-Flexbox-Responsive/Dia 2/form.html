@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Formulario-TrybeTrip</title>
+</head>
+
+<body>
+  <header>
+    <h1 class="title is-3">Concorra à Viagem dos seus sonhos com a TrybeTrip</h1>
+    <hr>
+  </header>
+
+  <div class="container">
+    <form id="myDiv" class="notification is-primary marginBottom">
+      <fieldset>
+          <div class="control has-icons-left has-icons-right marginBottom">
+            <label for="fullName">Nome Completo:</label>
+            <input class="input is-primary" id="fullName" type="text" placeholder="Nome" required>
+            <span class="icon is-small is-left">
+              <i class="fas fa-envelope"></i>
+            </span>
+            <span class="icon is-small is-right">
+              <i class="fas fa-check"></i>
+            </span>
+          </div>
+          <div>
+            <label for="email">Endereço de e-mail:</label>
+            <div class="control has-icons-left has-icons-right marginBottom">
+              <input class="input is-primary" id="email" type="email" placeholder="Email" required>
+              <span class="icon is-small is-left">
+                <i class="fas fa-envelope"></i>
+              </span>
+              <span class="icon is-small is-right">
+                <i class="fas fa-check"></i>
+              </span>
+            </div>
+
+        </div>
+
+        <div id="escolhas">
+          <input type="radio" id="destination1" name="destinations" value="Cidade" required>
+          <label for="destination1">Cidade</label>
+          <input type="radio" id="destination2" name="destinations" value="Campo" required>
+          <label for="destination2">Campo</label>
+          <input type="radio" id="destination3" name="destinations" value="Praia" required>
+          <label for="destination3">Praia</label>
+          <input type="radio" id="destination4" name="destinations" value="Montanhas" required>
+          <label for="destination4">Montanhas</label>
+          <br><br>
+        </div>
+
+        <label for="why">Por que você deveria ser a pessoa desenvolvedora escolhida pelo concurso TrybeTrip?</label>
+        <br />
+        <textarea name="why" id="why" cols="60" rows="10" placeholder="Digite sua resposta vencedora aqui" class="textarea is-primary marginBottom" required></textarea>
+        <br />
+
+        <label for="date">Qual a melhor data para realizar sua viagem?</label>
+        <br /><br />
+        <input type="date" id="date" class="marginBottom button is-small" required>
+        <br />
+
+        <label for="promo">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe.</label>
+        <input type="checkbox" name="promo" id="promo" class="marginBottom">
+        <br />
+
+        <label for="agreement">Concordo que imagens de minhas férias poderão ser usadas na divulgação de concursos
+          futuros.</label>
+        <input type="checkbox" class="marginBottom"name="agreement" id="agreement" required>
+      </fieldset>
+
+      <button type="submit" id="submit-btn" disabled class="button">Participar do concurso TrybeTrip</button>
+      <button type="button" id="clear-btn" class="button">Apagar informações</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
