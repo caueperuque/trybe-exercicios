@@ -18,9 +18,22 @@ header {
 
 form {
   padding: 20px;
-  border-radius: 10px;
 }
 
 #myDiv {
-  box-shadow: 0px 0px 30px rgb(66, 66, 66);
+  box-shadow: 0px 0px 20px rgb(72, 134, 126);
 }
+
+textarea {
+  resize: none;
+  border-radius: 10px;
+}
+
+.marginBottom{
+  margin-bottom: 30px;
+}
+
+.notification {
+  border-radius: 10px;
+}
+
