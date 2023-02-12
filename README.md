@@ -49,12 +49,12 @@ Seção 3: Introdução à JavaScript :white_check_mark:
 Seção 4: JavaScript: DOM, Eventos e Web Storage :hourglass_flowing_sand:
 </summary>
 
-- [ ] 4-1: _DOM e seletores_
-- [ ] 4-2: _Trabalhando com elementos_
-- [ ] 4-3: _Eventos_
-- [ ] 4-4: _Web Storage_
-- [ ] 4-5: _Arte com Pixels_
-- [ ] 4-6: _Projeto Prático_
+- [X] 4-1: _DOM e seletores_
+- [X] 4-2: _Trabalhando com elementos_
+- [X] 4-3: _Eventos_
+- [X] 4-4: _Web Storage_
+- [X] 4-5: _Arte com Pixels_
+- [X] 4-6: _Projeto Prático_
 </details>
 
 <details>
