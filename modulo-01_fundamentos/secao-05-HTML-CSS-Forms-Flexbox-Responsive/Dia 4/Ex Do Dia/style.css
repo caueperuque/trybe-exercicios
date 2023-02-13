@@ -25,11 +25,13 @@
     display: flex;
     flex-basis: 500px;
     order: 2;
+    flex-grow: 1;
   }
   
   .menu-container ul {
     display: flex;
     justify-content: space-around;
+    align-self: center;
     width: 100%;
   }
   
