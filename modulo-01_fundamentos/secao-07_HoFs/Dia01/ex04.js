@@ -62,10 +62,7 @@ const books = [
 ];
 
 //EX01:
-const authorBornIn1947 = () => {
-  return books.find((book) => book.author.birthYear === 1947).author.name;
-};
-
+const authorBornIn1947 = () => books.find((book) => book.author.birthYear === 1947).author.name;
 console.log(authorBornIn1947());
 
 //EX02:
@@ -94,12 +91,24 @@ console.log(smallerName());
 // };
 
 const getNamedBook = () => books.find((book) => book.name.length === 26);
-
 console.log(getNamedBook());
 
 //EX04:
 // const expectedResult = false;
 
 const everyoneWasBornOnSecXX = () => books.every((book) => book.birthYear >= 1901);
-
 console.log(everyoneWasBornOnSecXX());
+
+//EX05:
+// const expectedResult = true;
+
+const someBookWasReleaseOnThe80s = () => books.some((book) => book.releaseYear >= 1980 || book.releaseYear <= 1989);
+console.log(someBookWasReleaseOnThe80s());
+
+//EX06:
+// const expectedResult = false;
+
+const authorUnique = () => books.every((book) => 
+  !books.some((bookSome) => (bookSome.author.birthYear === book.author.birthYear) && (bookSome.author.name !== book.author.name)));
+  
+console.log(authorUnique());
