@@ -69,7 +69,7 @@ const authorBornIn1947 = () => {
 console.log(authorBornIn1947());
 
 //EX02:
-const expectedResult = 'Duna';
+// const expectedResult = 'Duna';
 const smallerName = () => {
   let nameBook;
   books.forEach((book) => {
@@ -82,17 +82,24 @@ const smallerName = () => {
 console.log(smallerName());
 
 //EX03:
-const expectecResult = {
-  author: {
-    birthYear: 1948,
-    name: 'George R. R. Martin',
-  },
-  genre: 'Fantasia',
-  id: 1,
-  name: 'As Crônicas de Gelo e Fogo',
-  releaseYear: 1991,
-};
+// const expectedResult = {
+//   author: {
+//     birthYear: 1948,
+//     name: 'George R. R. Martin',
+//   },
+//   genre: 'Fantasia',
+//   id: 1,
+//   name: 'As Crônicas de Gelo e Fogo',
+//   releaseYear: 1991,
+// };
 
 const getNamedBook = () => books.find((book) => book.name.length === 26);
 
 console.log(getNamedBook());
+
+//EX04:
+// const expectedResult = false;
+
+const everyoneWasBornOnSecXX = () => books.every((book) => book.birthYear >= 1901);
+
+console.log(everyoneWasBornOnSecXX());
