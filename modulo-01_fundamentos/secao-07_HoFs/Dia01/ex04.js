@@ -109,6 +109,5 @@ console.log(someBookWasReleaseOnThe80s());
 // const expectedResult = false;
 
 const authorUnique = () => books.every((book) => 
-  !books.some((bookSome) => (bookSome.author.birthYear === book.author.birthYear) && (bookSome.author.name !== book.author.name)));
-  
+!books.some((bookSome) => (bookSome.author.birthYear === book.author.birthYear) && (bookSome.author.name !== book.author.name)));
 console.log(authorUnique());
